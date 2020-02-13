@@ -5,6 +5,7 @@
   "main": "src/App.js",
   "scripts": {
     "dev": "parcel src/index.html",
+    "dev:mock": "cross-env PET_MOCK=mock npm run dev",
     "format": "prettier \"src/**/*.{js,html}\" --write",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,6 +16,9 @@
   },
   "author": "Brian Q Anderson",
   "license": "ISC",
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
   "bugs": {
     "url": "https://github.com/bqanderson/adopt-me/issues"
   },
