@@ -7,7 +7,7 @@ body {
   background-color: #81a69b;
   background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-background.png);
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .search-params {
@@ -209,7 +209,7 @@ header {
 }
 
 #modal {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.75);
   position: fixed;
   left: 0;
   right: 0;
